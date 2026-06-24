@@ -12,7 +12,7 @@ Identifying which customers are leaving, why they are leaving, and what the bank
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Portfolio](https://img.shields.io/badge/Portfolio-Project%202-purple)
+
 
 ---
 
