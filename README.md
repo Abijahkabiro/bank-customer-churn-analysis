@@ -1,13 +1,9 @@
 # Fidelis National Bank (FNB) Customer Churn Analysis
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
-
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
-
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
-
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)   
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)  
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)  
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)  
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 
