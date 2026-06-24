@@ -1,40 +1,29 @@
 # Fidelis National Bank (FNB) Customer Churn Analysis
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)   
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)  
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)  
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)  
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
+**Author:** Abijah Kabiro | Data Analyst | Nairobi, Kenya  
+**Tools:** Python · Power BI · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn · DAX · Power Query  
+**Dataset:** Churn Modelling Dataset (Kaggle) — 10,000 customers  
+**Project Type:** Customer Analytics · Churn Prediction · Machine Learning Classification  
 
 ---
 
-## The Finding That Started Everything
+## Executive Summary
 
-Fidelis National Bank is losing 1 in every 5 customers. That alone is alarming. But here is the part that changes everything. The customers leaving had more money than those who stayed.
+Fidelis National Bank is losing 1 in every 5 customers, a trend that raises serious concern. But the deeper issue is not just that customers are leaving, it is who is leaving. Customers exiting the bank are, on average, more valuable than those who stay.
 
-Churned customers held an average balance of $91,108. Those who stayed held $72,745. FNB is not losing dormant accounts. It is losing its wealthiest customers. This project set out to find out why, predict who is next, and tell the bank what to do about it.
+Churned customers hold an average balance of $91,108 compared to $72,745 for retained customers. This shows that FNB is not mainly losing inactive or low-value accounts. It is losing high-value customers who are more financially engaged with the bank.
 
-The bank was named Fidelis because Fidelis means faithful in Latin. The entire project is about what happens when customer loyalty breaks down.
+This project aims to understand why customers are leaving, identify which groups are most at risk, and build a predictive model to flag future churners. The goal is to turn these insights into clear, actionable recommendations that can help the bank improve retention and protect its most valuable customer segments.
 
----
-
-## Project Overview
-
-| Detail | Info |
-|---|---|
-| Project | Portfolio Project 2 |
-| Analyst | Abijah Kabiro |
-| Tools | Python, Power BI, Scikit-learn |
-| Dataset | Churn Modelling (Kaggle) |
-| Records | 10,000 customers |
-| Target Industries | Fintech, Banking, Logistics |
+Fidelis is derived from the Latin word faithful and represents the bank’s promise of long-term customer loyalty.
 
 ---
 
 ## Business Problem
 
-Fidelis National Bank (FNB) operates across France, Spain, and Germany. Leadership is experiencing rising account closures but has no data-driven understanding of who is leaving, why they are leaving, or which customers are most at risk. This analysis answers all three questions and delivers five targeted retention recommendations.
+Fidelis National Bank (FNB) operates across France, Spain, and Germany. The leadership team is facing an increase in customer account closures but does not have a clear, data-driven understanding of who is leaving, why they are leaving, or which customers are most at risk.
+
+This analysis aims to answer these questions by identifying key churn patterns across customer segments and building a predictive model to highlight high-risk customers. The findings are then translated into practical recommendations that can support better retention strategies and help the bank reduce unnecessary customer loss.
 
 ---
 
