@@ -58,18 +58,23 @@ The analysis was structured around four groups of questions, each answered throu
 ## Project Approach
 
 **Phase 1: Business Understanding**
+
 Started by defining the churn problem and structuring the analysis around the four business question groups before writing any code. Documented the analytical objectives upfront so every chart and model output had a clear purpose tied to a business decision.
 
 **Phase 2: Data Cleaning**
+
 Ran profiling checks before touching the data. Confirmed zero missing values and zero duplicates. Removed three non-analytical columns (RowNumber, CustomerId, Surname) that carry no predictive value. Created an AgeGroup column to support demographic segmentation during EDA. Final dataset: 10,000 rows, 11 columns.
 
 **Phase 3: Exploratory Data Analysis**
+
 Analysed churn patterns across geography, gender, age, account balance, number of products held, membership activity, credit score, and tenure. Each analysis was built to answer a specific business question rather than simply describe the data.
 
 **Phase 4: Churn Prediction Model**
+
 Built a Logistic Regression model to predict which customers are most likely to churn. Logistic Regression was chosen because it is interpretable. Every coefficient can be explained to a business stakeholder, and the model output can directly inform retention prioritisation decisions.
 
 **Phase 5: Dashboard**
+
 Built a 4-page Power BI dashboard covering churn overview, customer profiling, behavioural drivers, and model insights. Designed for both desktop and mobile viewing.
 
 ---
@@ -77,24 +82,31 @@ Built a 4-page Power BI dashboard covering churn overview, customer profiling, b
 ## Key Findings
 
 **1. FNB is losing its most valuable customers**
+
 The expectation is that customers who leave are the less engaged, lower-balance accounts. The data says the opposite. Churned customers held $18,363 more on average than those who stayed. This is not a dormant account problem. It is a high-value customer retention failure.
 
 **2. Germany is a structural problem, not a regional blip**
+
 Germany's churn rate of 32.4% is double that of France (16.2%) and Spain (16.7%). This gap is consistent across the dataset and confirmed by the prediction model. Something specific to the German market is driving customers away at twice the rate of every other region. The fix is not operational. It requires a market-level investigation.
 
 **3. The over-selling trap is real**
+
 Customers holding 2 products churn at 7.6%, the lowest of any group. Customers with 3 products churn at 82.7%. Customers with 4 products have a 100% churn rate. Every single one has left. FNB's sales strategy is pushing too many products onto customers who do not want them, and the data shows it is actively driving the most engaged customers out the door.
 
 **4. Age 50-60 is a crisis segment**
+
 More than half of customers in the 50-60 age group have churned (56.2%). This is 35.8 percentage points above the overall average. Customers under 30 churn at just 7.5% and represent the most loyal segment in the portfolio. The bank's retention resources are not being directed at the customers who need them most.
 
 **5. Nearly half the bank is inactive**
+
 48.5% of FNB customers are inactive members. Inactive members churn at 26.9% compared to 14.3% for active members. This is not just a churn problem. It is an engagement crisis that the bank has not yet addressed.
 
 **6. Tenure offers a small but meaningful buffer**
+
 Customers who stayed had an average tenure of 5.1 years compared to 4.9 years for churned customers. The difference is small but the direction is clear. Longer relationships offer some protection against churn. Customers in their first year are the most vulnerable.
 
 **7. The prediction model confirms age and engagement as the two strongest signals**
+
 Age carries a coefficient of +0.754, the highest of any variable. Active membership carries -0.533, the strongest protective factor. These two variables alone explain the most about who will leave. The model achieved 81.1% overall accuracy but struggled to catch churners specifically due to class imbalance, documented in the model section below.
 
 ---
