@@ -198,18 +198,23 @@ Documenting this limitation matters. A model that catches 20% of churners is not
 ## Business Recommendations
 
 **1. Launch an age-targeted retention programme for customers aged 50 and above**
+
 With a 56.2% churn rate, this segment is losing more than half its customers. Assign dedicated relationship managers, offer preferential rates, and run personalised outreach campaigns targeted at this group before more accounts close.
 
 **2. Run a 90-day re-engagement campaign for inactive members**
+
 4,849 customers are inactive and churning at nearly double the rate of active members. A structured re-engagement campaign using personalised communication, fee waivers, and mobile banking onboarding could recover a significant portion of these accounts before they are permanently lost.
 
 **3. Investigate the German market urgently**
+
 A 32.4% churn rate that is double every other market cannot be explained by normal variation. Something specific to Germany is driving this. Exit interviews with churned German customers and a competitor benchmarking exercise would identify the root cause and inform a market-specific response.
 
 **4. Design a retention strategy for female customers**
+
 Female customers churn at 25.1% compared to 16.5% for males, an 8.6 percentage point gap. This suggests the current product or service experience is not meeting the needs of this segment. A review of product fit and service touchpoints for female customers is a necessary first step.
 
 **5. Stop over-selling products**
+
 The data is clear. Two products is the loyalty sweet spot. Three or four products is where churn accelerates to dangerous levels. Audit the sales incentive structures that are rewarding product volume over customer fit and retrain relationship managers on needs-based selling.
 
 ---
